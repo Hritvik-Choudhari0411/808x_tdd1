@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/libs/pid",
+  "command": "/usr/bin/c++  -I/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/libs/pid/. -std=gnu++14 -o CMakeFiles/pid_lib.dir/pid.cpp.o -c /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/libs/pid/pid.cpp",
+  "file": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/libs/pid/pid.cpp",
+  "output": "libs/pid/CMakeFiles/pid_lib.dir/pid.cpp.o"
+},
+{
+  "directory": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/app",
+  "command": "/usr/bin/c++  -I/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/include -I/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/libs/pid/. -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/app/main.cpp",
+  "file": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/app/main.cpp",
+  "output": "app/CMakeFiles/shell-app.dir/main.cpp.o"
+},
+{
+  "directory": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/test",
+  "command": "/usr/bin/c++  -I/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/include -I/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/libs/pid/. -isystem /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/_deps/googletest-src/googletest/include -isystem /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/_deps/googletest-src/googletest -std=gnu++14 -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/test/main.cpp",
+  "file": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/test/main.cpp",
+  "output": "test/CMakeFiles/cpp-test.dir/main.cpp.o"
+},
+{
+  "directory": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/test",
+  "command": "/usr/bin/c++  -I/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/include -I/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/libs/pid/. -isystem /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/_deps/googletest-src/googletest/include -isystem /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/_deps/googletest-src/googletest -std=gnu++14 -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/test/test.cpp",
+  "file": "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/test/test.cpp",
+  "output": "test/CMakeFiles/cpp-test.dir/test.cpp.o"
+}
+]

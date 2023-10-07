@@ -8,8 +8,23 @@
  * @copyright Copyright (c) 2023
  * 
  */
-#pragma once
+ 
+#ifndef PID_HPP
+#define PID_HPP
 
 #include <iostream>
 
-class pid_controller;
+class pid_controller
+{
+private:
+    float Kp, Ki, Kd;
+
+public:
+    pid_controller();
+    float compute(float input_signal);
+    void set_Kp(float p);
+    void set_Ki(float i);
+    void set_Kd(float d);
+};
+
+#endif // PID_HPP

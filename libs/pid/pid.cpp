@@ -8,42 +8,39 @@
  * @copyright Copyright (c) 2023
  * 
  */
+ 
 #include "pid.hpp"
 
-/**
- * @brief Pid controller class implementation. Has a constructor to initialize Kp, Ki, and Kd values to 1.0. 'compute' function to compute the output based on the given input signal. Functions to set the values of Kp, Ki, and Kd individually.
- * 
- */
-class pid_controller
+// Constructor to initialize Kp, Ki, and Kd values to 1.0
+pid_controller::pid_controller()
 {
-  private:
-    float Kp, Ki, Kd;
+    Kp = 1.0;
+    Ki = 1.0;
+    Kd = 1.0;
+}
 
-  public:
-      pid_controller()
-      {
-        Kp = 1.0;
-        Ki = 1.0;
-        Kd = 1.0;
-      }
+// Compute function to calculate the PID control output based on the input signal
+float pid_controller::compute(float input_signal)
+{
+    // Implement your PID control logic here
+    // This function should calculate the control output based on the PID algorithm
+    // and return the result
+    // For now, it just returns a constant value of 1.0, which is not correct
+    return 1.0;
+}
 
-      float compute(float input_signal)
-      {
-        return 1.0;
-      }
+// Functions to set the values of Kp, Ki, and Kd individually
+void pid_controller::set_Kp(float p)
+{
+    Kp = p;
+}
 
-      void set_Kp(float p)
-      {
-        Kp = p;
-      }
+void pid_controller::set_Ki(float i)
+{
+    Ki = i;
+}
 
-      void set_Ki(float i)
-      {
-        Ki = i;
-      }
-
-      void set_Kd(float d)
-      {
-        Kd = d;
-      }
-};
+void pid_controller::set_Kd(float d)
+{
+    Kd = d;
+}

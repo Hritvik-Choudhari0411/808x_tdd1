@@ -1,4 +1,4 @@
-# Install script for directory: /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2
+# Install script for directory: /home/hritvik/808x_tdd1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,29 +37,24 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/hritvik/808x_tdd1/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/hritvik/808x_tdd1/build/libs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/libs/cmake_install.cmake")
+  include("/home/hritvik/808x_tdd1/build/app/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/app/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/test/cmake_install.cmake")
+  include("/home/hritvik/808x_tdd1/build/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hritvik/808x_tdd1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

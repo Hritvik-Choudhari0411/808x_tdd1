@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2
-# Build directory: /home/mudit/ENPM808x/Week4/cpp-boilerplate-v2/build
+# Source directory: /home/hritvik/808x_tdd1
+# Build directory: /home/hritvik/808x_tdd1/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

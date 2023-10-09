@@ -1,7 +1,21 @@
+/**
+ * @file test.cpp
+ * @author Hritvik Choudhari (hac@umd.edu)
+ * @brief 
+ * @version 0.1
+ * @date 2023-10-09
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include "pid.hpp"
 #include <gtest/gtest.h>
 
 
+/**
+ * @brief Construct a new TEST object
+ * 
+ */
 TEST(pid_controller, Test_Case_1) {
   // Initialize a PID controller with Kp = 1.0, Ki = 2.0, and Kd = 3.0
   pid_controller controller;

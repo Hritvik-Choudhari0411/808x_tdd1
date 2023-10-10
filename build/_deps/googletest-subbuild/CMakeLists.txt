@@ -12,8 +12,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip"
-                    SOURCE_DIR          "/home/hritvik/808x_tdd1/build/_deps/googletest-src"
-                    BINARY_DIR          "/home/hritvik/808x_tdd1/build/_deps/googletest-build"
+                    SOURCE_DIR          "/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-src"
+                    BINARY_DIR          "/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

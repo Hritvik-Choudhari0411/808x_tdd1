@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hritvik/808x_tdd1
+CMAKE_SOURCE_DIR = /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hritvik/808x_tdd1/build
+CMAKE_BINARY_DIR = /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build
 
 # Utility rule file for docs.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /home/hritvik/808x_tdd1/build
 include CMakeFiles/docs.dir/progress.make
 
 CMakeFiles/docs: Doxyfile.docs
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hritvik/808x_tdd1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for docs"
-	cd /home/hritvik/808x_tdd1 && /usr/bin/cmake -E make_directory /home/hritvik/808x_tdd1/docs
-	cd /home/hritvik/808x_tdd1 && /usr/local/bin/doxygen /home/hritvik/808x_tdd1/build/Doxyfile.docs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for docs"
+	cd /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1 && /usr/bin/cmake -E make_directory /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/docs
+	cd /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1 && /usr/bin/doxygen /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/Doxyfile.docs
 
 docs: CMakeFiles/docs
 docs: CMakeFiles/docs.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/docs.dir/clean:
 .PHONY : CMakeFiles/docs.dir/clean
 
 CMakeFiles/docs.dir/depend:
-	cd /home/hritvik/808x_tdd1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hritvik/808x_tdd1 /home/hritvik/808x_tdd1 /home/hritvik/808x_tdd1/build /home/hritvik/808x_tdd1/build /home/hritvik/808x_tdd1/build/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1 /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1 /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/docs.dir/depend
 

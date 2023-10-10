@@ -1,4 +1,4 @@
-# Install script for directory: /home/hritvik/808x_tdd1
+# Install script for directory: /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hritvik/808x_tdd1/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hritvik/808x_tdd1/build/libs/cmake_install.cmake")
+  include("/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/libs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hritvik/808x_tdd1/build/app/cmake_install.cmake")
+  include("/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/app/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hritvik/808x_tdd1/build/test/cmake_install.cmake")
+  include("/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hritvik/808x_tdd1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

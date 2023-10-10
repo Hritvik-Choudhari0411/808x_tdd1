@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/hritvik/808x_tdd1/build/_deps/googletest-src/googlemock/include -isystem /home/hritvik/808x_tdd1/build/_deps/googletest-src/googlemock -isystem /home/hritvik/808x_tdd1/build/_deps/googletest-src/googletest/include -isystem /home/hritvik/808x_tdd1/build/_deps/googletest-src/googletest 
+CXX_INCLUDES = -isystem /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-src/googlemock/include -isystem /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-src/googlemock -isystem /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-src/googletest/include -isystem /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-src/googletest 
 

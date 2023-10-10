@@ -1,4 +1,4 @@
-# Install script for directory: /home/hritvik/808x_tdd1/app
+# Install script for directory: /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hritvik/808x_tdd1/include -I/home/hritvik/808x_tdd1/libs/pid/. -isystem /home/hritvik/808x_tdd1/build/_deps/googletest-src/googletest/include -isystem /home/hritvik/808x_tdd1/build/_deps/googletest-src/googletest 
+CXX_INCLUDES = -I/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/include -I/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/libs/pid/. -isystem /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-src/googletest/include -isystem /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/_deps/googletest-src/googletest 
 

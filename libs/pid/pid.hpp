@@ -1,9 +1,9 @@
 /**
  * @file pid.hpp
- * @author Mudit Singal (msingal@umd.edu)
+ * @author Patrik Dominik Pördi (ppordi@umd.edu)
  * @brief 
- * @version 0.1
- * @date 2023-10-06
+ * @version 0.2
+ * @date 2023-10-10
  * 
  * @copyright Copyright (c) 2023
  * 
@@ -14,14 +14,18 @@
 
 #include <iostream>
 
+/**
+ * @brief Class for PID controller
+ * 
+ */
 class pid_controller
 {
 private:
-    float Kp, Ki, Kd;
+    float Kp, Ki, Kd, dt;
 
 public:
     pid_controller();
-    float compute(float input_signal);
+    float compute( float input_signal,float ref_signal);
     void set_Kp(float p);
     void set_Ki(float i);
     void set_Kd(float d);

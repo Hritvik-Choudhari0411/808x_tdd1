@@ -1,0 +1,42 @@
+\hypertarget{md_README_autotoc_md416}{}\doxysection{C++ Boilerplate v2 Badges}\label{md_README_autotoc_md416}
+ \href{https://codecov.io/gh/TommyChangUMD/cpp-boilerplate-v2}{\texttt{ }} \mbox{[}\mbox{]}(L\+I\+C\+E\+N\+SE)
+
+ \href{https://codecov.io/gh/muditsingal/808x_tdd1}{\texttt{ }} \mbox{[}\mbox{]}(L\+I\+C\+E\+N\+SE)\hypertarget{md_README_autotoc_md417}{}\doxysubsection{Roles\+:}\label{md_README_autotoc_md417}
+{\bfseries{Part 1\+:}}
+\begin{DoxyItemize}
+\item Mudit Singal (Driver)
+\item Hritvik Choudhari (Navigator)
+\end{DoxyItemize}
+
+{\bfseries{Part 2\+:}}
+\begin{DoxyItemize}
+\item Patrik Dominik Pordi (Driver)
+\item Kiran S Patil (Navigator)
+\end{DoxyItemize}
+
+Steps followed\+: Part 1\+:
+\begin{DoxyItemize}
+\item The driver cloned the repo cpp-\/boilerplate-\/v2
+\item A new library for implementation of P\+ID controller was created in the {\itshape libs} folder
+\item An empty class implementation was created that had private member variables and public member functions (methods) with appropriate constructor and compute method.
+\item The code was pushed to the git repo
+\item This implementation was then cloned by the navigator
+\item The navigator added test cases and ran the test cases as per the guidelines of assignment
+\end{DoxyItemize}
+
+Part 2\+:
+\begin{DoxyItemize}
+\item The roles are reversed.
+\item The new driver now implements the incomplete methods
+\item The new navigator makes new test cases as per the implemented methods
+\item The navigator runs the test cases and pushes the code
+\end{DoxyItemize}
+
+Instructions\+:
+\begin{DoxyItemize}
+\item Navigate to the workspace
+\item Delete build folder if exist\+: rm -\/rf build
+\item Generate build\+: cmake -\/S ./ -\/B build/
+\item Build the project\+: cmake --build build/ --clean-\/first
+\item Run the testcase\+: build/test/cpp-\/test 
+\end{DoxyItemize}

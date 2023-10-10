@@ -1,9 +1,9 @@
 /**
  * @file pid.cpp
- * @author Mudit Singal (msingal@umd.edu)
+ * @author Patrik Dominik Pördi (ppordi@umd.edu)
  * @brief 
- * @version 0.1
- * @date 2023-10-06
+ * @version 0.2
+ * @date 2023-10-10
  * 
  * @copyright Copyright (c) 2023
  * 
@@ -11,7 +11,7 @@
  
 #include "pid.hpp"
 
-// Constructor to initialize Kp, Ki, and Kd values to 1.0
+// Constructor to initialize Kp, Ki, and Kd values to 1.0 and dt to 0.01
 pid_controller::pid_controller()
 {
     Kp = 1.0;
@@ -24,11 +24,7 @@ pid_controller::pid_controller()
 // Compute function to calculate the PID control output based on the input signal
 float pid_controller::compute(float input_signal,float ref_signal)
 {
-    // Implement your PID control logic here
-    // This function should calculate the control output based on the PID algorithm
-    // and return the result
-    // For now, it just returns a constant value of 1.0, which is not correct
-    // Error calculation
+    // Implement PID control logic
     float output_vel;
     float integral=0;
     float error_i=0;

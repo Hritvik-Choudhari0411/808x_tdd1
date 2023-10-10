@@ -31,5 +31,9 @@ Part 2:
 * The new navigator makes new test cases as per the implemented methods
 * The navigator runs the test cases and pushes the code
 
-To do:
-* Code analysis and code review (necessary for deployment cases)
+Instructions:
+- Navigate to the workspace
+- Delete build folder if exist: rm -rf build
+- Generate build: cmake -S ./ -B build/
+- Build the project: cmake --build build/ --clean-first
+- Run the testcase: build/test/cpp-test

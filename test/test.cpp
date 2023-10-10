@@ -1,9 +1,9 @@
 /**
  * @file test.cpp
- * @author Hritvik Choudhari (hac@umd.edu)
+ * @author Patrik Dominik Pördi (ppordi@umd.edu)
  * @brief 
- * @version 0.1
- * @date 2023-10-09
+ * @version 0.2
+ * @date 2023-10-10
  * 
  * @copyright Copyright (c) 2023
  * 
@@ -17,7 +17,7 @@
  * 
  */
 TEST(pid_controller, Test_Case_1) {
-  // Initialize a PID controller with Kp = -3.0, Ki = 5.0, and Kd = 1.0
+  // Initialize a PID controller with Kp, Ki, and Kd
   pid_controller controller;
   controller.set_Kp( 0.001);
   controller.set_Ki(0.0);
@@ -29,15 +29,14 @@ TEST(pid_controller, Test_Case_1) {
 
   // Calculate the PID control output
   float output = controller.compute(target_velocity,start_velocity);
-  std::cout<<output<<std::endl;
-
+  
   // Check if the calculated output matches the expected output within a tolerance
   EXPECT_NEAR(output, 11, 0.05); // Adjust tolerance as needed
   
 }
 
 TEST(pid_controller, Test_Case_2) {
-  // Initialize a PID controller with Kp = -3.0, Ki = 5.0, and Kd = 1.0
+  // Initialize a PID controller with Kp, Ki, and Kd
   pid_controller controller;
   controller.set_Kp( 0.1);
   controller.set_Ki(0.0);

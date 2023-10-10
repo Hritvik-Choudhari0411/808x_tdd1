@@ -1,9 +1,9 @@
 /**
  * @file pid.hpp
- * @author Mudit Singal (msingal@umd.edu)
+ * @author Patrik Dominik Pördi (ppordi@umd.edu)
  * @brief 
- * @version 0.1
- * @date 2023-10-06
+ * @version 0.2
+ * @date 2023-10-10
  * 
  * @copyright Copyright (c) 2023
  * 

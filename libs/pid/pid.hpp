@@ -14,6 +14,10 @@
 
 #include <iostream>
 
+/**
+ * @brief Class for PID controller
+ * 
+ */
 class pid_controller
 {
 private:

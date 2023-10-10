@@ -12,6 +12,9 @@
 #include "pid.hpp"
 
 // Constructor to initialize Kp, Ki, and Kd values to 1.0 and dt to 0.01
+/** @brief Class for PID controller
+    * 
+    */
 pid_controller::pid_controller()
 {
     Kp = 1.0;
@@ -22,6 +25,13 @@ pid_controller::pid_controller()
 }
 
 // Compute function to calculate the PID control output based on the input signal
+/**
+ * @brief 
+ * 
+ * @param input_signal 
+ * @param ref_signal 
+ * @return float 
+ */
 float pid_controller::compute(float input_signal,float ref_signal)
 {
     // Implement PID control logic
@@ -48,16 +58,30 @@ float pid_controller::compute(float input_signal,float ref_signal)
 }
 
 // Functions to set the values of Kp, Ki, and Kd individually
+/**
+ * @brief 
+ * 
+ * @param p 
+ */
 void pid_controller::set_Kp(float p)
 {
     Kp = p;
 }
 
+/**
+ * @brief 
+ * 
+ * @param i 
+ */
 void pid_controller::set_Ki(float i)
 {
     Ki = i;
 }
-
+/**
+ * @brief 
+ * 
+ * @param d 
+ */
 void pid_controller::set_Kd(float d)
 {
     Kd = d;

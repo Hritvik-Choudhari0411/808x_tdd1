@@ -19,6 +19,7 @@ pid_controller::pid_controller()
     Kd = 1.0;
     previous_error = 0.0;
     integral = 0.0;
+    set_point = 0.0;
     
 }
 

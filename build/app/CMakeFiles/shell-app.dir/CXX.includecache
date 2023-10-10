@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/lib.hpp
+/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/app/main.cpp
 iostream
 -
-vector
--
-
-/home/hritvik/808x_tdd1/app/main.cpp
-lib.hpp
-/home/hritvik/808x_tdd1/app/lib.hpp
 

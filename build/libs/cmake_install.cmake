@@ -1,4 +1,4 @@
-# Install script for directory: /home/hritvik/808x_tdd1/libs
+# Install script for directory: /home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hritvik/808x_tdd1/build/libs/pid/cmake_install.cmake")
+  include("/home/pordipatrik/UMD/II/Software_dev/TTD/808x_tdd1/build/libs/pid/cmake_install.cmake")
 endif()
 

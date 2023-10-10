@@ -17,11 +17,11 @@
 class pid_controller
 {
 private:
-    float Kp, Ki, Kd, previous_error, integral, set_point;
+    float Kp, Ki, Kd, dt;
 
 public:
     pid_controller();
-    float compute(float input_signal);
+    float compute( float input_signal,float ref_signal);
     void set_Kp(float p);
     void set_Ki(float i);
     void set_Kd(float d);

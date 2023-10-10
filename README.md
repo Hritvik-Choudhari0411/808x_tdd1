@@ -12,8 +12,9 @@
 - Hritvik Choudhari (Navigator)
 
 **Part 2:**
-- Hritvik Choudhari (Driver)
-- Mudit Singal (Navigator)
+- Patrik Dominik Pordi (Driver)
+- Kiran S Patil (Navigator)
+
 
 Steps followed:
 Part 1:

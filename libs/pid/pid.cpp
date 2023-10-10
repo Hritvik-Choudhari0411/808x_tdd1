@@ -17,6 +17,9 @@ pid_controller::pid_controller()
     Kp = 1.0;
     Ki = 1.0;
     Kd = 1.0;
+    previous_error = 0.0;
+    integral = 0.0;
+    
 }
 
 // Compute function to calculate the PID control output based on the input signal
@@ -26,7 +29,22 @@ float pid_controller::compute(float input_signal)
     // This function should calculate the control output based on the PID algorithm
     // and return the result
     // For now, it just returns a constant value of 1.0, which is not correct
-    return 1.0;
+    // Error calculation
+    float error = set_point - input_signal;
+
+    // Integral term
+    integral += error;
+
+    // Derivative term
+    float derivative = error - previous_error;
+
+    // PID calculation
+    float output = Kp * error + Ki * integral + Kd * derivative;
+
+    // Update previous error for the next iteration
+    previous_error = error;
+
+    return output;
 }
 
 // Functions to set the values of Kp, Ki, and Kd individually

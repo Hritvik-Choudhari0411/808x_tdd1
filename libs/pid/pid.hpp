@@ -17,7 +17,7 @@
 class pid_controller
 {
 private:
-    float Kp, Ki, Kd;
+    float Kp, Ki, Kd, previous_error, integral, set_point;
 
 public:
     pid_controller();
